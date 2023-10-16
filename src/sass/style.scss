@@ -1,13 +1,4 @@
-// @use "base";
-// @use "components";
-// @use "layout";
-// @use "utilities";
-
-body {
-  background-color: lightgray;
-  color: darkblue;
-}
-
-p {
-  color: red;
-}
+@use "04-elements/body";
+@use "04-elements/images";
+@use "04-elements/lists";
+@use "04-elements/typography";
