@@ -48,4 +48,11 @@
       max-width: 50%; //Wartość wymagana dla kompatybilności z przeglądarką IE-10 i późniejszych.
     }
   }
+
+  &--lg75 {
+    @include large-up {
+      flex: 0 0 75%;
+      max-width: 75%; //Wartość wymagana dla kompatybilności z przeglądarką IE-10 i późniejszych.
+    }
+  }
 }

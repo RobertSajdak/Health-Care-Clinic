@@ -4,7 +4,7 @@
 .c-heading {
   color: $blue-text;
   line-height: $line-height-sm;
-  margin-bottom: $grid-base / 2;
+  margin-bottom: calc($grid-base / 2);
 
   &--level1 {
     font-size: $font-size-2;
