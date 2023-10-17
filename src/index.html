@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap;subset=latin-ext"
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
@@ -12,11 +10,12 @@
     <title>Health Care Clinic</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <div class="o-container">
-      <div class="o-row" style="background-color: burlywood">
+      <div class="o-row" style="background-color: lightgrey">
         <div
-          class="o-col o-col--lg25"
+          class="o-col o-col--md50 o-col--lg25"
           style="height: 400px; margin-bottom: 50px"
         >
           <a class="c-btn c-btn--primary" href="#">Zobacz więcej</a>
@@ -27,17 +26,42 @@
         </div>
 
         <div
-          class="o-col o-col--lg75"
+          class="o-col o-col--md50 o-col--lg25"
           style="height: 400px; margin-bottom: 50px"
         >
-          <nav class="c-nav">
-            <a class="c-nav__item" href="#">Home</a>
-            <a class="c-nav__item" href="#">About us</a>
-            <a class="c-nav__item" href="#">Services</a>
-            <a class="c-nav__item" href="#">News</a>
-            <a class="c-nav__item" href="#">Departments</a>
-            <a class="c-nav__item" href="#">Contact</a>
-          </nav>
+          <div class="c-icon-box">
+            <div class="c-icon-box__image">
+              <img
+                class="c-icon-box__icon"
+                src="./assets/images/icons/ikona-1.png"
+                alt="ikona 1"
+              />
+            </div>
+            <h4 class="c-heading c-heading--level4 c-heading--upper">
+              Pełny zakres usług
+            </h4>
+            <p class="c-icon-box__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut,
+              eaque ex.
+            </p>
+          </div>
+
+          <div class="c-icon-box">
+            <div class="c-icon-box__image">
+              <img
+                class="c-icon-box__icon"
+                src="./assets/images/icons/ikona-2.png"
+                alt="ikona 2"
+              />
+            </div>
+            <h4 class="c-heading c-heading--level4 c-heading--upper">
+              Pełny zakres usług
+            </h4>
+            <p class="c-icon-box__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut,
+              eaque ex.
+            </p>
+          </div>
         </div>
       </div>
     </div>

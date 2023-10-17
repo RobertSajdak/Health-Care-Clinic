@@ -3,10 +3,11 @@
 @use "04-elements/lists";
 @use "04-elements/typography";
 
+@use "05-objects/col";
 @use "05-objects/container";
 @use "05-objects/row";
-@use "05-objects/col";
 
 @use "06-components/btn";
 @use "06-components/heading";
+@use "06-components/icon-box";
 @use "06-components/nav";
