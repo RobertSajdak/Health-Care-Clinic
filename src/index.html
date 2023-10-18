@@ -12,66 +12,40 @@
   </head>
 
   <body>
-    <div class="o-container">
-      <div class="o-row" style="background-color: lightgrey">
-        <div
-          class="o-col o-col--md50 o-col--lg25 u-mb-3 u-text-right"
-          style="height: 400px; margin-bottom: 50px"
-        >
-          <span class="c-label"> Etykieta </span>
-          <a class="c-btn c-btn--primary" href="#">Zobacz więcej</a>
-          <a class="c-btn c-btn--accent" href="#">Zobacz więcej</a>
-          <a class="c-btn c-btn--dark-blue" href="#">Zobacz więcej</a>
-          <a class="c-btn c-btn--light" href="#">Zobacz więcej</a>
-          <a class="c-btn c-btn--outline" href="#">Zobacz więcej</a>
-
-          <ul class="c-list c-list--unstyled">
-            <li class="c-list__item">O nas</li>
-            <li class="c-list__item">Blog</li>
-            <li class="c-list__item">Kariera</li>
-            <li class="c-list__item">Kontakt</li>
-          </ul>
+    <header class="t-site-header">
+      <div class="o-container">
+        <div class="t-site-header__top">
+          <div class="o-row o-row--center-y">
+            <div class="o-col o-col--lg25">
+              <img src="./assets/images/logo.png" alt="logo" />
+            </div>
+            <div class="o-col o-col--lg75 t-site-header__menu">
+              <nav class="c-nav">
+                <a class="c-nav__item" href="#">Start</a>
+                <a class="c-nav__item" href="#">O firmie</a>
+                <a class="c-nav__item" href="#">Oferta</a>
+                <a class="c-nav__item" href="#">Specjalizacje</a>
+                <a class="c-nav__item" href="#">Referencje</a>
+                <a class="c-nav__item" href="#">Kontakt</a>
+              </nav>
+            </div>
+          </div>
         </div>
-
-        <div
-          class="o-col o-col--md50 o-col--lg25"
-          style="height: 400px; margin-bottom: 50px"
-        >
-          <div class="c-icon-box">
-            <div class="c-icon-box__image">
-              <img
-                class="c-icon-box__icon"
-                src="./assets/images/icons/ikona-1.png"
-                alt="ikona 1"
-              />
-            </div>
-            <h4 class="c-heading c-heading--level4 c-heading--upper">
-              Pełny zakres usług
-            </h4>
-            <p class="c-icon-box__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut,
-              eaque ex.
-            </p>
-          </div>
-
-          <div class="c-icon-box">
-            <div class="c-icon-box__image">
-              <img
-                class="c-icon-box__icon"
-                src="./assets/images/icons/ikona-2.png"
-                alt="ikona 2"
-              />
-            </div>
-            <h4 class="c-heading c-heading--level4 c-heading--upper">
-              Pełny zakres usług
-            </h4>
-            <p class="c-icon-box__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut,
-              eaque ex.
-            </p>
-          </div>
+        <div class="t-site-header__divider"></div>
+        <div class="t-site-header__hero">
+          <h1 class="c-heading c-heading--level1 c-heading--white">
+            Kompleksowe zdrowie
+          </h1>
+          <p class="t-site-header__intro-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            debitis quasi, exercitationem dicta numquam tempore culpa
+            praesentium natus repudiandae eum voluptatibus placeat.
+          </p>
+          <a class="c-btn c-btn--accent" href="">Zobacz więcej</a>
+          <span class="t-site-header__btn-divider">lub</span>
+          <a class="c-btn c-btn--dark-blue" href="">Rejestracja</a>
         </div>
       </div>
-    </div>
+    </header>
   </body>
 </html>

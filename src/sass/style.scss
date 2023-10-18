@@ -1,3 +1,12 @@
+@use "01-settings/shadows";
+@use "01-settings/type";
+@use "01-settings/variables";
+
+@use "02-tools/functions";
+@use "02-tools/mixins";
+
+@use "03-generic/box-sizing";
+
 @use "04-elements/body";
 @use "04-elements/images";
 @use "04-elements/lists";
@@ -13,6 +22,8 @@
 @use "06-components/label";
 @use "06-components/list";
 @use "06-components/nav";
+
+@use "07-templates/site-header";
 
 @use "08-utilities/colors";
 @use "08-utilities/spacing";
