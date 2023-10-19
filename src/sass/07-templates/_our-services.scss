@@ -1,0 +1,14 @@
+@use "../01-settings/variables" as *;
+@use "../02-tools/mixins" as *;
+
+.t-our-services {
+  padding-top: $grid-base * 5;
+
+  &__item {
+    margin-bottom: $grid-base * 4;
+
+    @include large-up {
+      margin-bottom: $grid-base * 6;
+    }
+  }
+}
