@@ -33,7 +33,6 @@
     color: $white;
 
     &:hover {
-      //przyciemnienie koloru tła o podany % przy najechaniu kursorem myszki na przycisk
       background-color: darken($green, 30%);
       color: $white;
     }
@@ -41,10 +40,9 @@
 
   &--dark-blue {
     background-color: $blue-dark;
-    color: $blue-text;
+    color: $white;
 
     &:hover {
-      //przyciemnienie koloru tła o podany % przy najechaniu kursorem myszki na przycisk
       background-color: darken($blue-dark, 30%);
       color: $white;
     }
@@ -55,7 +53,6 @@
     color: $blue-text;
 
     &:hover {
-      //przyciemnienie koloru tła o podany % przy najechaniu kursorem myszki na przycisk
       background-color: darken($white, 30%);
       color: $white;
     }
@@ -67,7 +64,6 @@
     color: $white;
 
     &:hover {
-      //przyciemnienie koloru tła o podany % przy najechaniu kursorem myszki na przycisk
       color: $blue-dark;
       border: 2px solid $blue-dark;
     }

@@ -5,8 +5,8 @@
   background: url(../../assets/images/header-tlo.jpg) 0 0 no-repeat;
 
   @include large-up {
-    clip-path: ellipse(75% 430px at 50% 15%);
-    padding-bottom: $grid-base * 4;
+    clip-path: ellipse(75% 430px at 50% 25%);
+    padding-bottom: $grid-base * 8;
   }
 
   &__top {
@@ -51,6 +51,8 @@
     @include large-up {
       font-size: $font-size-3;
       line-height: 1.66;
+      max-width: 55%;
+      margin: 0 auto;
       margin-bottom: $grid-base * 6;
     }
   }
@@ -61,6 +63,7 @@
     font-size: $font-size-5;
     font-weight: 700;
     margin: $grid-base * 2;
+    text-transform: uppercase;
 
     @include medium-up {
       display: inline-block;
