@@ -25,10 +25,20 @@
   &__buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   &__btn {
     margin-right: $grid-base * 3;
     margin-bottom: $grid-base * 2.5;
+  }
+
+  &__divider {
+    background-color: $blue-dark;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: $grid-base * 5;
+    opacity: 0.75;
+    width: 30%;
   }
 }

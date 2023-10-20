@@ -2,13 +2,22 @@
 @use "../02-tools/mixins" as *;
 
 .t-our-services {
-  padding-top: $grid-base * 5;
+  padding-top: $grid-base * 2;
 
   &__item {
     margin-bottom: $grid-base * 4;
 
     @include large-up {
-      margin-bottom: $grid-base * 6;
+      margin-bottom: $grid-base * 4;
     }
+  }
+
+  &__divider {
+    background-color: $blue-dark;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: $grid-base * 0.5;
+    opacity: 0.75;
+    width: 30%;
   }
 }
