@@ -2,13 +2,34 @@
 @use "../02-tools/mixins" as *;
 
 .t-post-list {
-  &__item {
-    margin-bottom: $grid-base * 4;
-    margin-top: $grid-base * 4;
+  background-color: $gray-light;
+  padding-top: $grid-base * 2;
+  position: relative;
+
+  @include large-up {
+    height: 380px;
+  }
+
+  &__content {
+    padding-bottom: $grid-base * 4;
 
     @include large-up {
-      margin-bottom: $grid-base * 2;
-      margin-top: $grid-base * 8;
+      background-color: $gray-light;
+      clip-path: ellipse(80% 470px at 50% 0);
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: $grid-base * 8;
+      z-index: 1000;
+    }
+  }
+
+  &__item {
+    margin-bottom: $grid-base * 4;
+    margin-top: $grid-base;
+
+    @include large-up {
+      margin-bottom: $grid-base * 4;
     }
   }
 
