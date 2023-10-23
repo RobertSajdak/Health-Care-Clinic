@@ -26,11 +26,12 @@
   }
 
   &__heading {
+    color: $gray-dark;
     margin-bottom: $grid-base * 1.5;
   }
 
   &__subheading {
-    color: $white;
+    color: $gray-dark;
     margin-bottom: $grid-base * 4;
   }
 
